@@ -3,3 +3,24 @@
  * Copyright 2015 ganmahmud.com - A project by Gan Mahmud
  * Licensed under MIT (https://github.com/ganmahmud/helper.css/blob/master/LICENSE)
  */
+
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+.text-decoration-none{text-decoration: none;}
+.text-strike-through{text-decoration:line-through;}
+.text-underline{text-decoration: underline;}
+.text-overline{text-decoration: overline;}
+.text-ellipsis{
+	text-overflow: ellipsis;
+	/*the follwing two properties are required for text ellipsis to work*/
+	white-space: nowrap;
+	overflow: hidden;
+}
+.text-uppercase{text-transform: uppercase;}
+.text-lowercase{text-transform: lowercase;}
+.text-capitalize{text-transform: capitalize;}
+.text-glow{text-shadow: 1px 1px 1px;}
+.text-drop-shadow{text-shadow: 2px 2px 2px;}
+.font-bold{font-weight: 700;}
+.font-italic{font-style: italic;}
